@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Hello') {
             steps {
-                sh 'pytest test_fixtures.py'
+                bat 'pytest test_fixtures.py'
             }
         }
     }
